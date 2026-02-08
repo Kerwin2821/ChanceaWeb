@@ -1,0 +1,52 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "module": "esnext",
+    "target": "es2015",
+    "jsx": "react-jsx",
+    "paths": {
+      "react-native-maps": [
+        "./mocks/react-native-maps.js"
+      ],
+      "react-native-simple-toast": [
+        "./mocks/react-native-simple-toast.js"
+      ],
+      "react-native-share": [
+        "./mocks/react-native-share.js"
+      ],
+      "react-native-video-trim": [
+        "./mocks/react-native-video-trim.js"
+      ],
+      "react-native-compressor": [
+        "./mocks/react-native-compressor.js"
+      ],
+      "@react-native-firebase/app": [
+        "./mocks/firebase-app.js"
+      ],
+      "@react-native-firebase/messaging": [
+        "./mocks/firebase-messaging.js"
+      ],
+      "@react-native-firebase/firestore": [
+        "./mocks/firebase-firestore.js"
+      ],
+      "@react-native-firebase/database": [
+        "./mocks/firebase-database.js"
+      ],
+      "@react-native-google-signin/google-signin": [
+        "./src/utils/GoogleSignin.web.ts"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.d.ts",
+    "assets/**/*",
+    "env.ts",
+    "nativewind-env.d.ts"
+  ]
+}

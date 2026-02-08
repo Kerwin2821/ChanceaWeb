@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media web {
+  body {
+    background-color: #e5e5e5; /* Neutral gray */
+    display: flex;
+    justify-content: center;
+  }
+  #root {
+    width: 100%;
+    max-width: 100%; /* Root handles the full width, app handles the constraint */
+    display: flex;
+    justify-content: center;
+  }
+}

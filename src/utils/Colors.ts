@@ -1,0 +1,22 @@
+export default {
+  black: '#000000',
+  blackBackground: '#AA8ED6',
+  blue: '#2F45AB',
+  blueLight: '#3ABDAE',
+  cream: '#e3dfc2',
+  danger: '#f94144',
+  grayLight: '#f2f2f2',
+  gray: '#E7E7E7',
+  graySemiDark: '#c2c0c0',
+  grayDark: '#424242',
+  green: '#85bE01',
+  transparent: '#00ff0000',
+  white: '#ffffff',
+  yellow: '#e8c221',
+  gold: '#d7a73d',
+  primary: '#AA8ED6',
+  BackgroundLight: '#f2ebff',
+  secondary: '#553986',
+  terceary:'#B471FC',
+  complement: '#f4f0fa'
+};

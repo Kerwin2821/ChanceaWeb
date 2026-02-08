@@ -1,0 +1,3 @@
+Para subir a AWS necesitas instalar la AWS CLI: brew install awscli
+Una vez instalada, configura tus credenciales con: aws configure
+Luego usa el siguiente comando para subir: aws s3 sync dist s3://TU-BUCKET-QA --acl public-read

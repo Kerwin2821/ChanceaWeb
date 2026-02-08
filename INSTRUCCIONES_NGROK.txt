@@ -1,0 +1,1 @@
+Para probar desde otro dispositivo fuera de la red local: usa 'ngrok http 8082'. Esto te dará una URL pública.

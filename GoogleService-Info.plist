@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>325516731671-7faq9n8p7hq7juq40s5i5ijblnbbmm6n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.325516731671-7faq9n8p7hq7juq40s5i5ijblnbbmm6n</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>325516731671-ol466c4j9nl62pe2oe58k23o5ggk20su.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCyreXtZ55yfezptnrbS2PxsPnMoLDqMcA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>325516731671</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.chanceaappp.chanceapp</string>
+	<key>PROJECT_ID</key>
+	<string>chanceaappp-23758</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chanceaappp-23758.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:325516731671:ios:11533c686df57d0f724352</string>
+	<key>DATABASE_URL</key>
+	<string>https://chanceaappp-23758-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

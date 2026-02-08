@@ -1,0 +1,41 @@
+{
+  "cli": {
+    "version": ">= 3.8.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_BASE_API": "https://qa.chanceaapp.com:3232",
+        "AUTH_API_USERNAME": "user",
+        "AUTH_API_PASSWORD": "1nt3r4xt3l3ph0nyWEB",
+        "ENCRYPTION_KEY": "G7fB9xL2pD3N4kT6",
+        "AWS_STORAGE": "https://chancea.s3.us-east-1.amazonaws.com",
+        "CLOUDFRONT": "https://d16i19xdhuyqyx.cloudfront.net",
+        "JITSI_SERVER": "https://meet.chanceaapp.com/",
+        "DEV": "0",
+        "REVENUECAT": "appl_xclKvBuowTEaVmIGWATgvEdamKS"
+      }
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}

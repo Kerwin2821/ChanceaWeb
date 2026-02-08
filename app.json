@@ -1,0 +1,121 @@
+{
+  "expo": {
+    "name": "Chancea",
+    "slug": "chanceaapp",
+    "version": "1.0.66",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": {
+        "dark": "./assets/icons/ios-dark.png",
+        "light": "./assets/icons/ios-light.png",
+        "tinted": "./assets/icons/ios-tinted.png"
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "usesAppleSignIn": true,
+      "cocoapods": "1.13.0",
+      "com.apple.developer.storekit": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Necesitamos acceder a la ubicación del dispositivo, ya que nuestra aplicación muestra chances en un radio de 8 km a la redonda. Si la geolocalización está apagada, la aplicación no mostrará los chances.",
+        "NSLocationAlwaysUsageDescription": "Necesitamos acceder a la ubicación del dispositivo, ya que nuestra aplicación muestra chances en un radio de 8 km a la redonda. Si la geolocalización está apagada, la aplicación no mostrará los chances.",
+        "NSCalendarsUsageDescription": "Necesitamos los permisos del calendario para las citas que vayas a aceptar, hacer recordatorios y alarmas para que no olvides tus citas.",
+        "NSRemindersUsageDescription": "Necesitamos los permisos del calendario para las citas que vayas a aceptar, hacer recordatorios y alarmas para que no olvides tus citas.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.chanceasocial.chanceasocial"
+    },
+    "android": {
+      "versionCode": 64,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "monochromeImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.chanceaappp.chanceaapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBKZZbJ2F5h3TeQU335iU31MPlBSFp9FKA"
+        }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/icon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "./app.plugin.js",
+      "@react-native-firebase/app",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-apple-authentication"
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/icons/splash-icon.png",
+          "dark": {
+            "image": "./assets/icons/splash-icon-dark.png",
+            "backgroundColor": "#553986"
+          },
+          "imageWidth": 200
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "La aplicación accede a tus fotos para cambiar la imagen de perfil y verificar la identificación.",
+          "cameraPermission": "Solicitamos permiso para utilizar la cámara con el fin de capturar imágenes que nos permitan verificar la identificación de los usuarios."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification_icon.png",
+          "color": "#fff"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Necesitamos acceder a la ubicación del dispositivo, ya que nuestra aplicación muestra chances en un radio de 8 km a la redonda. Si la geolocalización está apagada, la aplicación no mostrará los chances."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "Necesitamos los permisos del calendario para las citas que vayas a aceptar, hacer recordatorios y alarmas para que no olvides tus citas."
+        }
+      ],
+      "expo-font",
+      "expo-video",
+      "react-native-compressor",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8317a81a-5790-4d2a-b0b7-c19d730db75c"
+      }
+    }
+  }
+}

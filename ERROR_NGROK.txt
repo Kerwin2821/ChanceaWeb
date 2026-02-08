@@ -1,0 +1,1 @@
+ngrok necesita actualizarse. Intenta descargar la nueva versión desde https://ngrok.com/download si los comandos automáticos fallan.

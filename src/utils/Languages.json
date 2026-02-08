@@ -1,0 +1,884 @@
+{
+  "EN": {
+    "SCREENS": {
+      "InitScreen": {
+        "text": "Something good is loading...",
+        "message": "Unable to get connection to our server. We invite you to check if you are connected to the internet and try again.",
+        "messageError": "General error. Please try again later!"
+      },
+      "LoginScreen": {
+        "title": "Login",
+        "titleEmail": "Email",
+        "titlePhone": "Phone number",
+        "titlePassword": "Password",
+        "placeholderEmail": "******@example.com",
+        "LoginBtnText": "Login",
+        "textRegister": "Not registered yet?",
+        "register": "Sign up!",
+        "resetPassword": "Forgot your password?",
+        "ERRORS": {
+          "message1": "Error querying information about your products, try again later!",
+          "message2": "Your username does not meet the requirements for an email or phone number",
+          "message3": "Your user is not active",
+          "message4": "Invalid password",
+          "message5": "Your user is blocked, we invite you to contact our customer service staff",
+          "message6": "Waiting for identity validation",
+          "message7": "At this moment a compliance agent is validating your receipts",
+          "message8": "Your user is not active yet",
+          "message9": "Your user is in the approval process, we will notify you when it is enabled",
+          "message10": "Invalid username. Please check and try again!",
+          "message11": "Your user has no products assigned"
+        }
+      },
+      "TrustedDeviceScreen": {
+        "title": "Unknown device",
+        "text1": "The device from which you are trying to enter is not registered as one of your frequently used devices, so it is necessary to validate your identity",
+        "text2": "At the end of this process the current device will replace your previous frequently used device.",
+        "text3": "Authentication method",
+        "text4": "Enter the code sent to your",
+        "placeholder1": "# # # # # #"
+      },
+      "ResetPasswordScreen": {
+        "title": "RECOVER PASSWORD",
+        "placeholderUser": "Email or phone",
+        "textSubmit": "Continue",
+        "textBack": "Login!",
+        "ERRORS": {
+          "message1": "Your username does not meet the requirements for an email or phone number",
+          "message2": "Error processing your request. Please try again later!",
+          "message3": "Invalid username"
+        }
+      },
+      "VerifyTokenScreen": {
+        "title": "RECOVER PASSWORD",
+        "textValidationSMS": "Enter the security code sent to your phone",
+        "textValidationEMAIL": "Enter the security code sent to your email",
+        "placeholder": "# # # # # #",
+        "textReSendSMS": "Resend SMS",
+        "textReSendEMAIL": "Resend Email",
+        "ERRORS": {
+          "message1": "Validation error",
+          "message2": "invalid security code",
+          "message3": "Error validating security code",
+          "message4": "security code expired, please enter new security code",
+          "message5": "Error sending security code",
+          "message6": "Error validating security code. Please try again later!",
+          "message7": "Error sending security code. Please try again later!"
+        }
+      },
+      "SecurityQuestionsScreen": {
+        "title": "RECOVER PASSWORD",
+        "text1": "Enter your identity document",
+        "placeholder1": "Answer",
+        "placeholder2": "12111345",
+        "ERRORS": {
+          "message1": "For security reasons the user has been blocked",
+          "message2": "Invalid answers. We remind you that on the third failed attempt your user will be blocked!",
+          "message3": "Error validating information. Please try again later!",
+          "message4": "The document number entered is invalid. Please check and try again!"
+        }
+      },
+      "ChangePasswordScreen": {
+        "title": "RECOVER PASSWORD",
+        "placeholder1": "Password",
+        "placeholder2": "Confirm password",
+        "ERRORS": {
+          "message1": "invalid security code",
+          "message2": "User does not exist",
+          "message3": "The password must contain a minimum of 8 digits, at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character",
+          "message4": "Passwords do not match"
+        }
+      },
+      "ResetPassSuccessScreen": {
+        "title": "Your password has been successfully changed!"
+      },
+      "NationalityScreen": {
+        "title": "Select your country of birth",
+        "textSubmit": "Continue",
+        "textBack": "Go to Login",
+        "ERRORS": {
+          "message1": "Error requesting information from the server. Please try again later!",
+          "message2": "Could not get your location",
+          "message3": "Could not get your deviceId",
+          "messageError": "General error. Please try again later!"
+        }
+      },
+      "QRRifScreen": {
+        "title": "Scan the QR code on your RIF",
+        "textSubmit": "I don't have RIF",
+        "ERRORS": {
+          "message1": "Error scanning Qr code",
+          "message2": "At the moment it is not possible to do the recognition of your data through your rif",
+          "message3": "The scanned QR code is invalid, please enter your ID"
+        },
+        "SUCCESS": {
+          "message2": "Verify your ID",
+          "message4": "Enter your ID"
+        }
+      },
+      "DocumentScreen": {
+        "ERRORS": {
+          "message1": "Error requesting information from the server. Please try again later!",
+          "message2": "Error processing your request. Please try again later!",
+          "message3": "The document number already registered!",
+          "messageError": "General error. Please try again later!"
+        }
+      },
+      "IdentityScreen": {
+        "title": "Verify your data",
+        "placeholder1": "First name:",
+        "placeholder2": "Middle name:",
+        "placeholder3": "First last name:",
+        "placeholder4": "Middle last name:",
+        "gender": "Gender:",
+        "gender1": "Male",
+        "gender2": "Female",
+        "gender3": "Other"
+      },
+      "ContactsScreen": {
+        "title": "Enter your email and mobile number",
+        "subtitle1": "Area Code",
+        "subtitle2": "Cell Phone",
+        "subtitle3": "Email",
+        "subtitle4": "Referral code",
+        "placeholder1": "12345687890",
+        "placeholder2": "******@example.com",
+        "placeholder3": "E435TZD2",
+        "ERRORS": {
+          "message1": "Error requesting information from the server. Please try again later!",
+          "message2": "Error processing your request. Please try again later!",
+          "message3": "Phone number is already registered!",
+          "message4": "Email is already registered!",
+          "message5": "Error sending security code. Please try again later!",
+          "message6": "Not an email"
+        }
+      },
+      "VerifyContactsScreen": {
+        "title": "User Registration",
+        "text1": "Enter the security code that was sent to your phone.",
+        "text2": "Enter the security code that was sent to your Email.",
+        "textSubmit": "Forward SMS",
+        "textSubmit2": "Resend Mail",
+        "textSubmit3": "Continue",
+        "textBack": "Back",
+        "placeholder1": "SMS security code",
+        "placeholder2": "Email security code",
+        "ERROR": {
+          "message1": "Error sending security code. Please try again later!",
+          "message2": "invalid email security code",
+          "message3": "invalid sms security code",
+          "message4": "Error validating sms security code",
+          "message5": "Error validating email security code"
+        }
+      },
+      "PasswordScreen": {
+        "title": "User Registration",
+        "text1": "Password creation:",
+        "text2": "Password must have:",
+        "text3": "Minimum 8 characters",
+        "text4": "1 Uppercase",
+        "text5": "Lowercase 1",
+        "text6": "1 Number",
+        "text7": "1 Special Character",
+        "text8": "Both passwords must match",
+        "textSubmit": "Continue",
+        "placeholder1": "Password",
+        "placeholder2": "Confirm password",
+        "ERRORS": {
+          "message1": "The password must contain a minimum of 8 digits, at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character!",
+          "message2": "Passwords do not match. Please check and try again!",
+          "message3": "The phone number is already registered",
+          "message4": "The email is already registered",
+          "message5": "Contraseña no coincide"
+        }
+      },
+      "RegisterSuccessScreen": {
+        "title": "User Registration",
+        "textSubmit": "Sign in!",
+        "text": "Congratulations, your registration has been completed successfully"
+      },
+      "RegisterSecurityQuestionScreen": {
+        "title": "Register your security questions",
+        "text1": "Select question #1:",
+        "text2": "Select question #2:",
+        "text3": "Select question #3:",
+        "placeholder1": "Response 1",
+        "placeholder2": "Response 2",
+        "placeholder3": "Response 3",
+        "ERRORS": {
+          "message1": "Error registering security questions. Please try again later!"
+        }
+      },
+      "DashboardScreen": {},
+      "OnboardingScreen": {
+        "title": "To proceed you must comply with the identity verification process"
+      },
+      "AddressScreen": {
+        "title": "Record your current address",
+        "text1": "Country:",
+        "text2": "State/Province:",
+        "text3": "City:",
+        "text4": "Detailed Address",
+        "text5": "Postal Code",
+        "placeholder1": "Av, Paris, Bldg 1, Floor 3, Apt. 303",
+        "placeholder2": "1222",
+        "ERRORS": {
+          "message1": "Error requesting information from the server. Please try again later!",
+          "message2": "Error processing your request, please try again later"
+        }
+      },
+      "PersonalInfoScreen": {
+        "title": "Register your information",
+        "text1": "Marital status:",
+        "text2": "Date of birth:",
+        "text3": "Place of birth:",
+        "civilStatus1": "Single",
+        "civilStatus2": "Married",
+        "civilStatus3": "Widowed",
+        "civilStatus4": "Divorced",
+        "placeholder1": "Place of birth:",
+        "textSubmit": "Continue",
+        "ERRORS": {
+          "message1": "Error requesting information from the server. Please try again later!",
+          "message2": "Error processing your request. Please try again later!"
+        }
+      },
+      "CollectionsTypesScreen": {
+        "title": "Identity verification",
+        "text1": "Country:",
+        "text2": "Type"
+      },
+      "DNIScreen": {
+        "title": "Tap and take a picture of your ID"
+      },
+      "DNIIScreen": {
+        "title": "Tap and take a photo of the back of your ID"
+      },
+      "SelfieScreen": {
+        "title": "Tap and take a photo of your face from the front\nNote: Not wearing a hat, más or glasses."
+      },
+      "OnboardingSuccessScreen": {
+        "title": "Thank you for completing the identity verification process. At this time it will be evaluated by our validation team to be activated.",
+        "text1": "The approval process can take 24 to 48 hours. We will be sending you a message or an email to notify you that your account has been activated."
+      },
+      "QrPaymentScreen": {
+        "Header": "Payment to merchant with QR",
+        "text1": "Select source account:",
+        "text2": "Scan the business QR code",
+        "message1": "The merchant you want to transfer to does not have an account of type",
+        "message2": "Select another account type!",
+        "message3": "Commercial not found. We invite you to scan the QR code again!"
+      },
+      "QrPaymentFormScreen": {
+        "Header": "Payment to merchant with QR",
+        "text1": "Trade data",
+        "text2": "Name of the trade",
+        "text3": "Branch",
+        "text4": "Destination account",
+        "text5": "Destination account number",
+        "text6": "Amount",
+        "text7": "Concept",
+        "placeholder1": "100.00",
+        "placeholder2": "Payment..."
+      },
+      "PreQRPaymentScreen": {
+        "text1": "Source account",
+        "text2": "Account number",
+        "text3": "Trade",
+        "text4": "Branch",
+        "text5": "Destination account",
+        "text6": "Destination account number",
+        "text7": "Amount",
+        "text8": "Concept",
+        "text9": "Authentication method",
+        "text10": "Enter the code sent to your",
+        "placeholder1": "# # # # # #",
+        "ERRORS": {
+          "message1": "Insufficient balance.",
+          "message2": "Wrong amount, please check and try again.",
+          "message3": "The transaction amount is blank."
+        }
+      },
+      "ReceiptQrPaymentScreen": {
+        "title": "Successful transaction",
+        "text1": "Your payment has been made successfully",
+        "text2": "Account number",
+        "text3": "Amount",
+        "text4": "Trade",
+        "text5": "Branch",
+        "text6": "Destination account number",
+        "text7": "Concept",
+        "text8": "Reference"
+      },
+      "TransferScreen": {
+        "Header": "Transfer to third parties",
+        "text1": "Select source account:",
+        "text2": "Scan the merchant's QR code",
+        "message1": "The merchant you want to transfer to does not have an account of type",
+        "message2": "Select another account type!",
+        "message3": "Commercial not found. We invite you to scan the QR code again!"
+      },
+      "TransferFormScreen": {
+        "Header": "Transfer to third parties",
+        "text1": "Receiver data",
+        "text2": "Name",
+        "text3": "Last Name",
+        "text4": "Destination account",
+        "text5": "Destination account number",
+        "text6": "Amount",
+        "text7": "Concept",
+        "placeholder1": "100.00",
+        "placeholder2": "Payment..."
+      },
+      "PreTransferScreen": {
+        "text1": "Source account",
+        "text2": "Account number",
+        "text3": "Name",
+        "text4": "Last Name",
+        "text5": "Destination account",
+        "text6": "Destination account number",
+        "text7": "Amount",
+        "text8": "Concept",
+        "text9": "Authentication method",
+        "text10": "Enter the code sent to your",
+        "placeholder1": "# # # # # #",
+        "ERRORS": {
+          "message1": "Insufficient balance.",
+          "message2": "Wrong amount, please check and try again.",
+          "message3": "The transaction amount is blank."
+        }
+      },
+      "ReceiptTransferScreen": {
+        "title": "Successful transaction",
+        "text1": "Your transfer has been carried out successfully",
+        "text2": "Account number",
+        "text3": "Amount",
+        "text4": "Name",
+        "text5": "Last Name",
+        "text6": "Destination account number",
+        "text7": "Concept",
+        "text8": "Reference"
+      },
+      "ProfileScreen": {
+        "title": "Profile Management",
+        "text1": "User Information",
+        "text2": "Names:",
+        "text3": "Last Name:",
+        "text4": "Enter current password:",
+        "text5": "New password:",
+        "text6": "Confirm password:",
+        "text7": "Expiration time",
+        "text8": "Authentication method",
+        "text9": "Enter the code sent to your",
+        "placeholder1": "********",
+        "placeholder2": "# # # # # #",
+        "ERRORS": {
+          "message1": "Your current password is invalid. Please check and try again!",
+          "message2": "Password must match confirmation",
+          "message3": "User ID not found",
+          "message4": "Due to security measures, your user has been blocked, we invite you to contact our support department",
+          "message5": "Channel not found",
+          "message6": "The new password cannot be the same as any of the old ones",
+          "message7": "The userId sent is invalid",
+          "message8": "Session Token Expired",
+          "message9": "Security code expired",
+          "message10": "Current password invalid"
+        },
+        "titleSuccess": "Operation successful!",
+        "messageSuccess": "Your password has been successfully changed"
+      },
+      "AddAccountScreen": {
+        "Header": "Add Mobile Payment",
+        "text1": "Bank",
+        "text2": "Cédula",
+        "text3": "Phone",
+        "text4": "Nickname",
+        "text5": "Authentication method",
+        "text6": "Forward",
+        "placeholder1": "04169458744",
+        "placeholder2": "John Hernandez",
+        "ERRORS": {
+          "message1": "Error requesting information from the server. Please try again later!",
+          "message2": "Error processing your request. Please try again later!",
+          "message3": "Error validating security code",
+          "message4": "Error sending security code",
+          "message5": "This account is already registered"
+        }
+      },
+      "AddAccountSuccessScreen": {
+        "Header": "Add Mobile Payment",
+        "text1": "Mobile payment has been added successfully"
+      }
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "GeneralError": "General error. Please try again later!",
+        "RequestError": "Error processing your request. Please try again later!",
+        "RequestInformationError": "Error requesting information from the server. Please try again later!",
+        "ErrorSendToken": "Error sending security code. Please try again later!",
+        "ErrorValidateToken": "Error validating security code",
+        "TokenInvalid": "Invalid security code",
+        "GeoLocalitionError": "Could not get your location",
+        "DeviceIdError": "Could not get your device information",
+        "ErrorUpdatingAccounts": "Error updating accounts",
+        "TransactionError": "Transaction rejected",
+        "ConnectionError": "Unable to connect to our server. Please check if you are connected to the Internet and try again.",
+        "NoBack": "You can't go back to the previous screen",
+        "NotEnoughAmount": "Not enough amount"
+      },
+      "SUCCESS": {},
+      "BUTTONS": {
+        "textSubmit": "Continue",
+        "textBack": "Back",
+        "textResend": "Resend"
+      },
+      "ALERTS": {
+        "warning": "Warning  ⚠️",
+        "success": "Success  ✅",
+        "error": "Ups.. Something Wrong ❗"
+      }
+    }
+  },
+  "ES": {
+    "SCREENS": {
+      "InitScreen": {
+        "text": "Something good is loading...",
+        "message": "Unable to get connection to our server. We invite you to check if you are connected to the internet and try again.",
+        "messageError": "General error. Please try again later!"
+      },
+      "LoginScreen": {
+        "title": "Iniciar Sesión",
+        "titleEmail": "Correo electrónico",
+        "titlePhone": "Número de teléfono",
+        "titlePassword": "Contraseña",
+        "placeholderEmail": "******@ejemplo.com",
+        "LoginBtnText": "Iniciar sesión",
+        "textRegister": "¿Aún no está registrado?",
+        "register": "Registrarse",
+        "resetPassword": "¿Olvidó su contraseña?",
+        "ERRORS": {
+          "message1": "Error al consultar información de sus productos, ¡Intente más tarde!",
+          "message2": "Su usuario no cumple con los requisitos de un email o un número telefónico",
+          "message3": "Tu usuario no se encuentra activo",
+          "message4": "Contraseña invalida",
+          "message5": "Su usuario se encuentra bloqueado, le invitamos a comunicarse con nuestro personal de atención al cliente",
+          "message6": "En espera de validación de identidad",
+          "message7": "En este momento un agente de cumplimiento se encuentra validando sus recaudos",
+          "message8": "Su usuario aun no se encuentra activo",
+          "message9": "Su usuario se encuentra en proceso de aprobación, le estaremos notificando cuando el mismo se encuentre habilitado",
+          "message10": "Usuario invalido. ¡Verifique e intente de nuevo!",
+          "message11": "Su usuario no tiene productos asignados"
+        }
+      },
+      "TrustedDeviceScreen": {
+        "title": "Dispositivo desconocido",
+        "text1": "El dispositivo del cual intenta ingresar no se encuentra registrado como uno de sus dispositivos de uso frecuente por lo que es necesario validar su identidad",
+        "text2": "Al finalizar este proceso el dispositivo actual reemplazara su anterior dispositivo de uso frecuente.",
+        "text3": "Método de autenticación",
+        "text4": "Ingrese el código enviado a su",
+        "placeholder1": "# # # # # #"
+      },
+      "ResetPasswordScreen": {
+        "title": "RECUPERAR CONTRASEÑA",
+        "placeholderUser": "Email o teléfono",
+        "textSubmit": "Continuar",
+        "textBack": "¡Iniciar sesión!",
+        "ERRORS": {
+          "message1": "Su usuario no cumple con los requisitos de un email o un número telefónico",
+          "message2": "Error al procesar su solicitud. ¡Intente más tarde!",
+          "message3": "Usuario invalido"
+        }
+      },
+      "VerifyTokenScreen": {
+        "title": "RECUPERAR CONTRASEÑA",
+        "textValidationSMS": "Ingrese el código de seguridad envía a su teléfono",
+        "textValidationEMAIL": "Ingrese el código de seguridad envía a su email",
+        "placeholder": "# # # # # #",
+        "textReSendSMS": "Reenviar SMS",
+        "textReSendEMAIL": "Reenviar Email",
+        "ERRORS": {
+          "message1": "Error de validación",
+          "message2": "código de seguridad invalido",
+          "message3": "Error al validar código de seguridad",
+          "message4": "código de seguridad expirado, introduzca el nuevo código de seguridad",
+          "message5": "Error al enviar el código de seguridad",
+          "message6": "Error al validar código de seguridad. ¡Intente más tarde!",
+          "message7": "Error al enviar el código de seguridad. ¡Intente más tarde!"
+        }
+      },
+      "SecurityQuestionsScreen": {
+        "title": "RECUPERAR CONTRASEÑA",
+        "text1": "Ingrese su documento de identidad",
+        "placeholder1": "Respuesta",
+        "placeholder2": "12111345",
+        "ERRORS": {
+          "message1": "Por motivos de seguridad el usuario ha sido bloqueado",
+          "message2": "Respuestas invalidas. ¡Le recordamos que al tercer intento fallido su usuario sera bloqueado!",
+          "message3": "Error al validar información. ¡Intente más tarde!",
+          "message4": "El número de documento ingresado es inválido. Verifique e intente de nuevo!"
+        }
+      },
+      "ChangePasswordScreen": {
+        "title": "RECUPERAR CONTRASEÑA",
+        "placeholder1": "Contraseña",
+        "placeholder2": "Confirmar contraseña",
+        "ERRORS": {
+          "message1": "código de seguridad invalido",
+          "message2": "El usuario no existe",
+          "message3": "La contraseña debe contener un mínimo de 8 dígitos, al menos 1 letra mayúscula, 1 letra minúscula, 1 número y 1 carácter especial",
+          "message4": "Las contraseñas no coinciden"
+        }
+      },
+      "ResetPassSuccessScreen": {
+        "title": "¡Su contraseña ha sido recuperada de manera exitosa!"
+      },
+      "NationalityScreen": {
+        "title": "Selecciona tu país de nacimiento",
+        "textSubmit": "Continuar",
+        "textBack": "Ir al Login",
+        "ERRORS": {
+          "message1": "Error al solicitar información del servidor. ¡Intente más tarde!",
+          "message2": "No se pudo obtener tu localización",
+          "message3": "No se pudo obtener tu deviceId"
+        }
+      },
+      "QRRifScreen": {
+        "title": "Escanee el código QR presente en su RIF",
+        "textSubmit": "No tengo RIF",
+        "ERRORS": {
+          "message1": "Error al escanear el código Qr",
+          "message2": "En este momento no se puede hacer el reconocimiento de sus datos a través de su rif",
+          "message3": "El código QR escaneado es invalido, ingrese su documento de identidad"
+        },
+        "SUCCESS": {
+          "message2": "Verifique su documento de identidad",
+          "message4": "Ingrese su documento de identidad"
+        }
+      },
+      "DocumentScreen": {
+        "ERRORS": {
+          "message1": "Error al solicitar información del servidor. ¡Intente más tarde!",
+          "message2": "Error al procesar su solicitud. ¡Intente más tarde!",
+          "message3": "¡El número de documento ya se encuentra registrado!",
+          "messageError": "Error general. ¡Intente más tarde!"
+        }
+      },
+      "IdentityScreen": {
+        "title": "Verifica tus datos",
+        "textSubmit": "Continuar",
+        "textBack": "Volver",
+        "placeholder1": "Primer nombre:",
+        "placeholder2": "Segundo nombre:",
+        "placeholder3": "Primer apellido:",
+        "placeholder4": "Segundo apellido:",
+        "gender": "Genero:",
+        "gender1": "Masculino",
+        "gender2": "Femenino",
+        "gender3": "Otro"
+      },
+      "ContactsScreen": {
+        "title": "Introduce tu correo y número de teléfono",
+        "subtitle1": "Código de Area",
+        "subtitle2": "Teléfono Celular",
+        "subtitle3": "Correo Electrónico",
+        "subtitle4": "Código de referido",
+        "placeholder1": "1234567890",
+        "placeholder2": "******@ejemplo.com",
+        "placeholder3": "E435TZD2",
+        "ERRORS": {
+          "message1": "Error al solicitar información del servidor. ¡Intente más tarde!",
+          "message2": "Error al procesar su solicitud. ¡Intente más tarde!",
+          "message3": "¡El número de teléfono ya se encuentra registrado!",
+          "message4": "¡El email ya se encuentra registrado!",
+          "message5": "Error al enviar el código de seguridad. ¡Intente más tarde!",
+          "message6": "No es un correo electrónico"
+        }
+      },
+      "VerifyContactsScreen": {
+        "title": "Valida tus Datos",
+        "text1": "Ingrese el código de seguridad que se envió por un SMS o un Whatsapp.",
+        "text2": "Ingrese el código de seguridad que se envió a su Email.",
+        "textSubmit": "Reenviar",
+        "textSubmit2": "Reenviar Correo",
+        "textSubmit3": "Continuar",
+        "textBack": "Volver",
+        "placeholder1": "código de seguridad",
+        "placeholder2": "código de seguridad Email",
+        "ERROR": {
+          "message1": "Error al enviar el código de seguridad. ¡Intente más tarde!",
+          "message2": "código de seguridad de email invalido",
+          "message3": "código de seguridad de SMS invalido",
+          "message4": "Error al validar el código de seguridad del SMS",
+          "message5": "Error al validar el código de seguridad del email"
+        }
+      },
+      "PasswordScreen": {
+        "title": "Registro de usuario",
+        "text1": "Creación de contraseña:",
+        "text2": "La contraseña debe tener:",
+        "text3": "Mínimo de 8 caracteres",
+        "text4": "1 Mayúscula",
+        "text5": "1 Minúscula",
+        "text6": "1 Número",
+        "text7": "1 Carácter especial",
+        "text8": "Ambas contraseñas deben coincidir",
+        "textSubmit": "Continuar",
+        "placeholder1": "Contraseña",
+        "placeholder2": "Confirmar contraseña",
+        "ERRORS": {
+          "message1": "La contraseña debe contener un mínimo de 8 dígitos, al menos 1 letra mayúscula, 1 letra minúscula, 1 número y 1 carácter especial!",
+          "message2": "Las contraseñas no coinciden. ¡Verifique e intente de nuevo!",
+          "message3": "El número de teléfono ya esta registrado",
+          "message4": "El correo ya esta registrado",
+          "message5": "Contraseña no coincide"
+        }
+      },
+      "RegisterSuccessScreen": {
+        "title": "Registro de usuario",
+        "textSubmit": "¡Iniciar sesión!",
+        "text": "Felicidades, su registro ha sido completado exitosamente"
+      },
+      "RegisterSecurityQuestionScreen": {
+        "title": "Registre sus preguntas de seguridad",
+        "text1": "Seleccione la pregunta #1:",
+        "text2": "Seleccione la pregunta #2:",
+        "text3": "Seleccione la pregunta #3:",
+        "placeholder1": "Respuesta 1",
+        "placeholder2": "Respuesta 2",
+        "placeholder3": "Respuesta 3",
+        "ERRORS": {
+          "message1": "Error registrar las preguntas de seguridad. ¡Intente más tarde!"
+        }
+      },
+      "DashboardScreen": {},
+      "OnboardingScreen": {
+        "title": "Para proceder debe cumplir con el proceso de verificación de identidad"
+      },
+      "AddressScreen": {
+        "title": "Registre su dirección actual",
+        "text1": "País:",
+        "text2": "Estado/Provincia:",
+        "text3": "Ciudad:",
+        "text4": "Dirección detallada",
+        "text5": "Código postal",
+        "placeholder1": "Av, Paris, Edificio. 1, Piso 3, Apto. 303",
+        "placeholder2": "1222",
+        "ERRORS": {
+          "message1": "Error al solicitar información del servidor. ¡Intente más tarde!",
+          "message2": "Error al procesar su solicitud, intente más tarde"
+        }
+      },
+      "PersonalInfoScreen": {
+        "title": "Registre su información",
+        "text1": "Estado civil:",
+        "text2": "Fecha de nacimiento:",
+        "text3": "Lugar de nacimiento:",
+        "civilStatus1": "Soltero",
+        "civilStatus2": "Casado",
+        "civilStatus3": "Viudo",
+        "civilStatus4": "Divorciado",
+        "placeholder1": "Lugar de nacimiento:",
+        "textSubmit": "Continuar",
+        "ERRORS": {
+          "message1": "Error al solicitar información del servidor. ¡Intente más tarde!",
+          "message2": "Error al procesar su solicitud. ¡Intente más tarde!"
+        }
+      },
+      "CollectionsTypesScreen": {
+        "title": "Verificación de identidad",
+        "text1": "País:",
+        "text2": "Tipo"
+      },
+      "DNIScreen": {
+        "title": "Toca y toma una foto de tu documento de identidad"
+      },
+      "DNIIScreen": {
+        "title": "Toca y toma una foto de la parte posterior de tu documento de identidad"
+      },
+      "SelfieScreen": {
+        "title": "Toca y toma una foto de tu rostro de frente\nNota: Sin usar gorra, tapaboca o lentes."
+      },
+      "OnboardingSuccessScreen": {
+        "title": "Gracias por culminar con el proceso de verificación de identidad. En este momento será evaluado por nuestros equipo de validación para ser activado.",
+        "text1": "El proceso de aprobación puede tardar de 24 a 48 horas. Le estaremos enviando un mensaje o un email para notificar la activación de su cuenta."
+      },
+      "QrPaymentScreen": {
+        "Header": "Pago a comercio con QR",
+        "text1": "Seleccione la cuenta de origen:",
+        "text2": "Escanee el código QR del comercio",
+        "message1": "El comercio al que desea transferir no tiene cuenta de tipo",
+        "message2": "¡Seleccione otro tipo de cuenta!",
+        "message3": "Comercio no encontrado. ¡Lo invitamos a escanear nuevamente el código QR!"
+      },
+      "QrPaymentFormScreen": {
+        "Header": "Pago a comercio con QR",
+        "text1": "Datos del comercio",
+        "text2": "Nombre del comercio",
+        "text3": "Sucursal",
+        "text4": "Cuenta destino",
+        "text5": "Número de cuenta destino",
+        "text6": "Monto",
+        "text7": "Concepto",
+        "placeholder1": "100.00",
+        "placeholder2": "Pago ..."
+      },
+      "PreQRPaymentScreen": {
+        "text1": "Cuenta de origen",
+        "text2": "Número de cuenta",
+        "text3": "Comercio",
+        "text4": "Sucursal",
+        "text5": "Cuenta destino",
+        "text6": "Número de cuenta destino",
+        "text7": "Monto",
+        "text8": "Concepto",
+        "text9": "Método de autenticación",
+        "text10": "Ingrese el código enviado a su",
+        "placeholder1": "# # # # # #",
+        "ERRORS": {
+          "message1": "Saldo insuficiente.",
+          "message2": "Monto erróneo, verifique e intente de nuevo.",
+          "message3": "El monto de la transacción esta en blanco."
+        }
+      },
+      "ReceiptQrPaymentScreen": {
+        "title": "Transacción exitosa",
+        "text1": "Su pago ha sido efectuado de manera exitosa",
+        "text2": "Número de cuenta",
+        "text3": "Monto",
+        "text4": "Comercio",
+        "text5": "Sucursal",
+        "text6": "Número de cuenta destino",
+        "text7": "Concepto",
+        "text8": "Referencia"
+      },
+      "TransferScreen": {
+        "Header": "Transferencia a terceros",
+        "text1": "Seleccione la cuenta de origen:",
+        "text2": "Escanee el código QR del comercio",
+        "message1": "El usuario al que desea transferir no tiene cuenta de tipo",
+        "message2": "¡Seleccione otro tipo de cuenta!",
+        "message3": "Usuario no encontrado. ¡Verifique e intente nuevamente!"
+      },
+      "TransferFormScreen": {
+        "Header": "Transferencia a terceros",
+        "text1": "Datos del receptor",
+        "text2": "Nombre",
+        "text3": "Apellido",
+        "text4": "Cuenta destino",
+        "text5": "Número de cuenta destino",
+        "text6": "Monto",
+        "text7": "Concepto",
+        "placeholder1": "100.00",
+        "placeholder2": "Pago ..."
+      },
+      "PreTransferScreen": {
+        "text1": "Cuenta de origen",
+        "text2": "Número de cuenta",
+        "text3": "Nombre",
+        "text4": "Apellido",
+        "text5": "Cuenta destino",
+        "text6": "Número de cuenta destino",
+        "text7": "Monto",
+        "text8": "Concepto",
+        "text9": "Método de autenticación",
+        "text10": "Ingrese el código enviado a su",
+        "placeholder1": "# # # # # #",
+        "ERRORS": {
+          "message1": "Saldo insuficiente.",
+          "message2": "Monto erróneo, verifique e intente de nuevo.",
+          "message3": "El monto de la transacción esta en blanco."
+        }
+      },
+      "ReceiptTransferScreen": {
+        "title": "Transacción exitosa",
+        "text1": "Su transferencia ha sido efectuado de manera exitosa",
+        "text2": "Número de cuenta",
+        "text3": "Monto",
+        "text4": "Nombre",
+        "text5": "Apellido",
+        "text6": "Número de cuenta destino",
+        "text7": "Concepto",
+        "text8": "Referencia"
+      },
+      "ProfileScreen": {
+        "title": "Gestión de perfil",
+        "text1": "Información de usuario",
+        "text2": "Nombres:",
+        "text3": "Apellidos:",
+        "text4": "Ingrese la contraseña actual:",
+        "text5": "Nueva contraseña:",
+        "text6": "Confirmar contraseña:",
+        "text7": "Tiempo de caducidad",
+        "text8": "Método de autenticación",
+        "text9": "Ingrese el código enviado a su",
+        "placeholder1": "********",
+        "placeholder2": "# # # # # #",
+        "ERRORS": {
+          "message1": "Su contraseña actual es inválida. ¡Verifique e intente nuevamente!",
+          "message2": "La contraseña debe coincidir con la confirmación",
+          "message3": "Id de Usuario no encontrado",
+          "message4": "Por medidas de seguridad su usuario ha sido bloqueado, lo invitamos a comunicarse con nuestro departamento de soporte",
+          "message5": "Canal no encontrado",
+          "message6": "La nueva contraseña no puede ser igual a ninguna de las anteriores",
+          "message7": "El userId enviado es invalido",
+          "message8": "Token de Session Expirado",
+          "message9": "Código de seguridad vencido",
+          "message10": "Contraseña actual inválida"
+        },
+        "titleSuccess": "¡Operación exitosa!",
+        "messageSuccess": "Su contraseña ha sido modificada exitosamente"
+      },
+      "AddAccountScreen": {
+        "Header": "Agregar Pago Movil",
+        "text1": "Banco",
+        "text2": "Cédula",
+        "text3": "Teléfono",
+        "text4": "Alias",
+        "text5": "Método de autenticación",
+        "text6": "Reenviar",
+        "placeholder1": "04169458744",
+        "placeholder2": "Juan Hernandez",
+        "ERRORS": {
+          "message1": "Error al solicitar información del servidor. ¡Intente más tarde!",
+          "message2": "Error al procesar su solicitud. ¡Intente más tarde!",
+          "message3": "Error al validar el código de seguridad",
+          "message4": "Error al enviar el código de seguridad",
+          "message5": "Esta cuenta ya está registrada"
+        }
+      },
+      "AddAccountSuccessScreen": {
+        "Header": "Agregar Pago Movil",
+        "text1": "Se ha agregado el pago móvil con éxito"
+      }
+    },
+    "GENERAL": {
+      "ERRORS": {
+        "GeneralError": "Error general. ¡Intente más tarde!",
+        "RequestError": "Error al procesar su solicitud. ¡Intente más tarde!",
+        "RequestInformationError": "Error al solicitar información del servidor. ¡Intente más tarde!",
+        "ErrorSendToken": "Error al enviar el código de seguridad. ¡Intente más tarde!",
+        "ErrorValidateToken": "Error al validar el código de seguridad",
+        "TokenInvalid": "Código de seguridad inválido",
+        "GeoLocalitionError": "No se pudo obtener tu localización",
+        "DeviceIdError": "No se pudo obtener tu la información de tu dispositivo",
+        "ErrorUpdatingAccounts": "Error al actualizar las cuentas",
+        "TransactionError": "Transacción rechazada",
+        "ConnectionError": "No se puede conectar con nuestro servidor. Te invitamos a comprobar si estás conectado a Internet y volver a intentarlo.",
+        "NoBack": "No puedes volver a la pantalla anterior",
+        "NotEnoughAmount": "Monto Insuficiente"
+      },
+      "SUCCESS": {},
+      "BUTTONS": {
+        "textSubmit": "Continuar",
+        "textBack": "Volver",
+        "textResend": "Reenviar",
+        "textBackLogin": "Volver al Login"
+      },
+      "ALERTS": {
+        "warning": "Alerta  ⚠️",
+        "success": "Listo  ✅",
+        "error": "Ups.. Algo ocurrió❗"
+      }
+    }
+  }
+}
