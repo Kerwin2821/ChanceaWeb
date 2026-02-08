@@ -1,0 +1,23 @@
+{
+    "short_name": "Chancea",
+    "name": "Chancea - Citas y Amistad",
+    "icons": [
+        {
+            "src": "/icons/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icons/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#6B46C1",
+    "description": "Encuentra tu chance ideal cerca de ti."
+}

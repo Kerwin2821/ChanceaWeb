@@ -52,7 +52,15 @@
     },
     "web": {
       "favicon": "./assets/icon.png",
-      "bundler": "metro"
+      "bundler": "metro",
+      "display": "standalone",
+      "startUrl": "/",
+      "shortName": "Chancea",
+      "name": "Chancea - Citas y Amistad",
+      "backgroundColor": "#ffffff",
+      "themeColor": "#6B46C1",
+      "description": "Encuentra tu chance ideal cerca de ti.",
+      "orientation": "portrait"
     },
     "plugins": [
       "./app.plugin.js",
